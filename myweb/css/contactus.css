@@ -1,0 +1,173 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+h img a{
+	display: block;
+}
+body{
+	height: 100%;
+}
+.nav{
+	background-color: black;
+	/* border:1px solid #000000 ; */
+	opacity: 0.4;
+	height: 84px;
+	text-align: center 0;
+	
+}
+.itm{
+	margin-right: 220px;
+}
+.itm1{
+	margin-right: 220px;
+}
+.nav li{
+float: right;
+}
+.nav p{
+	padding-top: 30px;
+}
+.nav a{
+	display: block;
+	width: 84px;
+	height: 84px;
+	text-align: center;
+	padding:  0 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 黑体;
+	color: white;			
+}
+.nav a:hover{
+	background-color: #595959;
+}
+.box1{
+	height: 177px;
+	border-bottom: 1px solid #000000;
+}
+.box_1{
+	width: 1200px;
+	margin: 0 auto;
+}
+.box_1_itm{
+	padding-top: 80px;
+	padding-bottom: 18px;
+	font-family: 黑体;
+	font-size: 32px;
+}
+.box_1_itm1{
+	color: #85000f;
+	font-family: 黑体;
+	font-size: 14px;
+}
+.box2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.box2 p{
+	display: block;	
+}
+.box2_itm{
+	margin-top:96px;
+	margin-bottom: 32px;
+	font-family: 仿宋;
+	font-size: 20px;
+	text-align: center;
+}
+.box2_itm1{
+	font-family: 黑体;
+	font-size: 32px;
+	text-align: center;
+}
+.box2_itm2{
+	margin-top: 66px;
+	
+}
+/* .box2_itm2 input{
+	
+} */
+.box2_itm2 input{
+	float: left;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #868586;
+	display: block;
+	height: 40px;
+	width: 340px;
+}
+.box2_itm3 input{
+	margin-left: 65px;
+}
+.box2_itm4 textarea{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-top: 58px;
+	height: 300px;
+	width: 1200px;
+	color: #868586;
+	box-sizing: border-box;
+}
+.box2 input:hover{
+	
+}
+.box2_itm5 li{
+	display: block;
+	float: left;
+	margin-top: 70px;
+}
+.box2_itm6_itm{
+	display: block;
+	margin-left: 80px;
+	height: 40px;
+	width: 120px;
+}
+.box2_itm6_itm1{
+	display: block;
+	margin-left: 44px;
+	text-align: center;
+}
+.box2_itm6 li input{
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 100px;
+}
+.box2_itm5_itm input{
+	margin-top: 180px;
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 210px;
+	float: right;
+	border: none;
+	background-color: #fdaf5c;
+	font-size: 22px;
+	color: white;
+}
+.box2_itm5_itm input:hover{
+	background-color: #f5c28b;
+}
+.box3 img{
+	display: block;
+	width: 100%;
+	padding-top: 160px;
+}
+.box2_itm6_itm1 p{
+	padding-bottom: 6px;
+	margin-top: 10px;
+	border-bottom: 2px solid black;
+}
+.box2_itm6_itm1 a{
+	text-decoration: none;
+	color: black
+}
+.box2_itm6_itm1 :hover{
+	color: #5d5c5c;
+	border-color: #5d5c5c;
+}
