@@ -1,0 +1,201 @@
+@charset "UTF-8";
+body{
+	background-color: black;
+}
+.navbar{
+	/* 导航条 */
+	margin-bottom: 0px;
+	border: none;
+}
+
+.navbar-default {
+	/* 导航栏 */
+	/* background-color: #f8f8f8; */
+	background-color: black;
+	/* opacity: 1; */
+	/* border-color: #e7e7e7 */
+	border: none;
+}
+.navbar-default .navbar-nav>li>a {
+	/* 导航li-a-color */
+	color: white
+}
+.navbar-default .navbar-brand {
+	/* #777 */
+	color: white
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+	/* #5e5e5e */
+	color: white;
+	/* background-color: transparent */
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #555;
+	background-color: #e7e7e7
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	/* 导航-active-a-hover */
+	/* color: ; */
+	/* background-color: */
+}
+
+.navbar-brand{
+	/* 导航条头 */
+	/* 15 15->25 55 */
+	padding: 25px 55px;
+	height: 100%;
+}
+
+.navbar-toggle{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.navbar-nav>li>a {
+	/* 导航li-a */
+	/* padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px */
+	padding: 15px 32px 15px;
+	/* 20->45px */
+	line-height: 45px;
+	/* font-family: 黑体; */
+	font-family: 黑体;
+	/* font-size: 18px; */
+	font-size: 18px;
+}
+@media (max-width:768px) {
+	.navbar{
+		border: none;
+	}
+	
+	.navbar-brand{
+		/* 25->20px */
+		padding: 20px 55px;
+	}
+	
+	.navbar-toggle{
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+	
+}
+@media (min-width:768px) and (max-width:1024px) {
+	.navbar{
+		border: none;
+	}
+}
+.navbar-fixed-top{
+	/* 导航条固定在顶部 */
+	/* fixed->sticky */
+	position: sticky;
+}
+.section-index-one{
+	background-image: url(../img/background.png);
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 140px;
+	color: white;
+}
+
+.section-index-one h1{
+	font-size: 70px;
+	text-align: center;
+}
+
+.section-index-one img{
+	height: 64px;
+	width: 300px;
+	margin: 160px auto;
+	
+}
+
+@media (max-width:768px) {
+	.section-index-one {
+		padding-top: 30px;
+	}
+	
+	.section-index-one h1{
+		font-size: 28px;
+	}
+	
+	.section-index-one img{
+		height: 24px;
+		width: 100px;
+		margin: 50px auto;
+	}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+	.section-index-one {
+		padding-top: 80px;
+	}
+	
+	.section-index-one h1{
+		font-size: 45px;
+	}
+	
+	.section-index-one img{
+		height: 46px;
+		width: 200px;
+		margin: 90px auto;
+	}
+}
+
+.section-tuijian-one{
+	margin-top: 80px;
+	padding-left: 140px;
+	border-bottom: 1px solid #000000;
+}
+
+.section-tuijian-one h2{
+	margin-bottom: 16px;
+}
+
+.section-tuijian-one h6{
+	margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+	.section-tuijian-one{
+		padding-left: 40px;
+		margin-top: 30px;
+	}
+	
+	.section-tuijian-one h2{
+		font-size: 20px;
+		margin-bottom: 4px;
+	}
+	
+	.section-tuijian-one h6{
+		font-size: 4px;
+		margin-bottom: 8px;
+	}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+	.section-tuijian-one{
+		padding-left: 60px;
+		margin-top: 60px;
+	}
+	
+	.section-tuijian-one h2{
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+	
+	.section-tuijian-one h6{
+		font-size: 6px;
+		margin-bottom: 12px;
+	}
+}
+
