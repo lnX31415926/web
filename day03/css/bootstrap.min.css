@@ -4,32 +4,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
-/* 
-	请注意！！！！！！！！
-	请注意！！！！！！！！
-	请注意！！！！！！！！
-	ALL @media (min-width:1024px)-> (min-width:1024px) 
-	
-	.caret{ inline-block -> none}
-	
-	@media (min-width:1024px) {
-		.navbar {
-			4px->0px
-			border-radius: 0px  
-		}
-	}
-	
-	.table>tbody>tr>td,
-	.table>tbody>tr>th,
-	.table>tfoot>tr>td,
-	.table>tfoot>tr>th,
-	.table>thead>tr>td,
-	.table>thead>tr>th{
-		border:none;
-	}
-
-*/
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -1672,7 +1646,7 @@ p {
 	line-height: 1.4
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.lead {
 		font-size: 21px
 	}
@@ -1870,7 +1844,7 @@ dd {
 	margin-left: 0
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.dl-horizontal dt {
 		float: left;
 		width: 160px;
@@ -2026,7 +2000,7 @@ pre code {
 	margin-left: auto
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.container {
 		width: 750px
 	}
@@ -2329,7 +2303,7 @@ pre code {
 	margin-left: 0
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 
 	.col-sm-1,
 	.col-sm-10,
@@ -3025,7 +2999,7 @@ th {
 	padding: 8px;
 	line-height: 1.42857143;
 	vertical-align: top;
-	/* border-top: 1px solid #ddd */
+	border-top: 1px solid #ddd
 }
 
 .table>thead>tr>th {
@@ -3768,7 +3742,7 @@ textarea.input-lg {
 	color: #737373
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.form-inline .form-group {
 		display: inline-block;
 		margin-bottom: 0;
@@ -3848,7 +3822,7 @@ textarea.input-lg {
 	margin-left: -15px
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.form-horizontal .control-label {
 		padding-top: 7px;
 		margin-bottom: 0;
@@ -3860,14 +3834,14 @@ textarea.input-lg {
 	right: 15px
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.form-horizontal .form-group-lg .control-label {
 		padding-top: 11px;
 		font-size: 18px
 	}
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.form-horizontal .form-group-sm .control-label {
 		padding-top: 6px;
 		font-size: 12px
@@ -4447,8 +4421,7 @@ tbody.collapse.in {
 }
 
 .caret {
-	/* inline->block */
-	display: none;
+	display: inline-block;
 	width: 0;
 	height: 0;
 	margin-left: 2px;
@@ -4600,7 +4573,7 @@ tbody.collapse.in {
 	margin-bottom: 2px
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-right .dropdown-menu {
 		right: 0;
 		left: auto
@@ -5107,7 +5080,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	left: auto
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.nav-tabs.nav-justified>li {
 		display: table-cell;
 		width: 1%
@@ -5129,7 +5102,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	border: 1px solid #ddd
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.nav-tabs.nav-justified>li>a {
 		border-bottom: 1px solid #ddd;
 		border-radius: 4px 4px 0 0
@@ -5188,7 +5161,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	left: auto
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.nav-justified>li {
 		display: table-cell;
 		width: 1%
@@ -5214,7 +5187,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	border: 1px solid #ddd
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.nav-tabs-justified>li>a {
 		border-bottom: 1px solid #ddd;
 		border-radius: 4px 4px 0 0
@@ -5248,14 +5221,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	border: 1px solid transparent
 }
 
-@media (min-width:1024px) {
-	/* 4->0px */
+@media (min-width:768px) {
 	.navbar {
-		border-radius: 0px
+		border-radius: 4px
 	}
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-header {
 		float: left
 	}
@@ -5275,7 +5247,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	overflow-y: auto
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-collapse {
 		width: auto;
 		border-top: 0;
@@ -5323,7 +5295,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	margin-left: -15px
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 
 	.container-fluid>.navbar-collapse,
 	.container-fluid>.navbar-header,
@@ -5339,7 +5311,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	border-width: 0 0 1px
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-static-top {
 		border-radius: 0
 	}
@@ -5353,7 +5325,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	z-index: 1030
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 
 	.navbar-fixed-bottom,
 	.navbar-fixed-top {
@@ -5389,7 +5361,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	display: block
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 
 	.navbar>.container .navbar-brand,
 	.navbar>.container-fluid .navbar-brand {
@@ -5425,7 +5397,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	margin-top: 4px
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-toggle {
 		display: none
 	}
@@ -5468,7 +5440,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	}
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-nav {
 		float: left;
 		margin: 0
@@ -5496,7 +5468,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-form .form-group {
 		display: inline-block;
 		margin-bottom: 0;
@@ -5567,7 +5539,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	}
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-form {
 		width: auto;
 		padding-top: 0;
@@ -5614,7 +5586,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	margin-bottom: 15px
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-text {
 		float: left;
 		margin-right: 15px;
@@ -5622,7 +5594,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	}
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.navbar-left {
 		float: left !important
 	}
@@ -6230,7 +6202,7 @@ a.badge:hover {
 	max-width: 100%
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
 	.jumbotron {
 		padding-top: 48px;
 		padding-bottom: 48px
@@ -7407,7 +7379,7 @@ button.close {
 	overflow: scroll
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
 	.modal-dialog {
 		width: 600px;
 		margin: 30px auto
@@ -7937,7 +7909,7 @@ button.close {
 	text-shadow: none
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
 
 	.carousel-control .glyphicon-chevron-left,
 	.carousel-control .glyphicon-chevron-right,
@@ -8130,7 +8102,7 @@ button.close {
 	}
 }
 
-@media (min-width:1024px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 	.visible-sm {
 		display: block !important
 	}
@@ -8149,19 +8121,19 @@ button.close {
 	}
 }
 
-@media (min-width:1024px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 	.visible-sm-block {
 		display: block !important
 	}
 }
 
-@media (min-width:1024px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 	.visible-sm-inline {
 		display: inline !important
 	}
 }
 
-@media (min-width:1024px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 	.visible-sm-inline-block {
 		display: inline-block !important
 	}
@@ -8247,7 +8219,7 @@ button.close {
 	}
 }
 
-@media (min-width:1024px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 	.hidden-sm {
 		display: none !important
 	}
@@ -8324,4 +8296,4 @@ button.close {
 	}
 }
 
-
+/*# sourceMappingURL=bootstrap.min.css.map */

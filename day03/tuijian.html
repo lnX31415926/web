@@ -9,32 +9,41 @@
 		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body style="background-color: white;">
-		<nav class="navbar navbar-default" role="navigation" class="nav">
-		    <div class="container-fluid"> 
-		    <div class="navbar-header">
-		        <button type="button" class="navbar-toggle" data-toggle="collapse"
-		                data-target="#example-navbar-collapse">
-		            <span class="sr-only">切换导航</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		        </button>
-		        <a class="navbar-brand" href="#">CUS</a>
-		    </div>
-		    <div class="collapse navbar-collapse" id="example-navbar-collapse">
-		        <ul class="nav navbar-nav">
-		            <li><a href="index.html">首页</a></li>
-		            <li><a href="tuijian.html">推荐</a></li>
-					<li><a href="#">联系</a></li>
-					<li><a href="#">我的</a></li>
-					<li><a href="#">投稿</a></li>
-		        </ul>
-				<ul class="nav navbar-nav navbar-right"> 
-				            <li><a href="#"></span> 注册</a></li> 
-				            <li><a href="#"></span> 登录</a></li> 
-				</ul> 
-		    </div>
-		    </div>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">CUS</a>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="menuItem"><a href="index.html">首页</a></li>
+						<li class="menuItem"><a href="tuijian.html">推荐</a></li>
+						<li class="menuItem"><a href="">联系</a></li>
+						<li class="menuItem"><a href="#">我的</a></li>
+						<li class="menuItem"><a href="#">投稿</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"></span> 登录</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">注册 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a id="action-1" href="#">meter</a></li>
+								<li><a href="#">EJB</a></li>
+								<li><a href="#">Jasper Report</a></li>
+								<li class="divider"></li>
+								<li><a href="#">分离的链接</a></li>
+								<li class="divider"></li>
+								<li><a href="#">另一个分离的链接</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 		<!-- <div class="box">
 			<div class="box_1">
