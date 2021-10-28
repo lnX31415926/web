@@ -470,6 +470,10 @@ body {
 	padding-top: 20px;
 }
 
+.section-tuijian-two-div h6 {
+	color:#337ab7 ;
+}
+
 .section-tuijian-two-div {
 	float: right;
 	width: 220px;
@@ -577,9 +581,25 @@ body {
 	border: none;
 }
 
+.section-tuijian-two>div>ul>li>h5>button>span {
+	color: #4586bd;
+	padding: 0px 7px;
+	font-size: 14px;
+	background-color: white;
+	border: none;
+}
+
 .section-tuijian-two>div>div>div>div>ul>li>h5>button {
 	color: #337ab7;
 	padding: 0px;
+	background-color: white;
+	border: none;
+}
+
+.section-tuijian-two>div>div>div>div>ul>li>h5>button>span {
+	color: #4586bd;
+	padding: 0px 7px;
+	font-size: 14px;
 	background-color: white;
 	border: none;
 }
@@ -637,9 +657,9 @@ body {
 	border-radius: 0px;
 }
 
-.section-tuijian-two>div>div>div>div>ul>li>div>h5>div>span>button{
-	border-radius: 0px;
-}
+/* .input-group-sm>.input-group-btn>.btn{
+		border-radius: 0px;
+	} */
 
 .section-tuijian-two>div>div>div>div>ul>li>div input {
 	border-radius: 0px;
@@ -706,6 +726,16 @@ body {
 		padding-bottom: 10px;
 		padding-left: 25px;
 	}
+	
+	.section-tuijian-two>div>ul>li>h5>button>span{
+		padding-bottom: 3px;
+		font-size: 12px;
+	}
+	
+	.section-tuijian-two>div>div>div>div>ul>li>h5>button>span{
+		padding-bottom: 3px;
+		font-size: 12px;
+	}
 
 	.section-tuijian-two>nav>ul>li>a,
 	.section-tuijian-two>nav>ul>li>span {
@@ -750,22 +780,11 @@ body {
 	.section-tuijian-two>div>div>div>div>ul>li>div h5 {
 		margin-left: 25px;
 	}
-	
-	.section-tuijian-two>div>ul>li>div>h5>div>span:first-child{
-			border-radius: 0px;
-		}
 
 	.section-tuijian-two>div>div>div>div>ul>li>div>h5>div>span:first-child{
 		border-radius: 0px;
 	}
 	
-	.section-tuijian-two>div>ul>li>div>h5>div>span>button{
-		border-radius: 0px;
-	}
-	
-	.section-tuijian-two>div>div>div>div>ul>li>div>h5>div>span>button{
-		border-radius: 0px;
-	}
 }
 
 @media (min-width:768px) and (max-width:1024px) {
@@ -838,24 +857,125 @@ body {
 	.section-tuijian-two>div>div>div>div>ul>li>div h5 {
 		margin-left: 35px;
 	}
-
-	.section-tuijian-two>div>ul>li>div>h5>div>span:first-child{
-		border-radius: 0px;
-	}
-
+	
 	.section-tuijian-two>div>div>div>div>ul>li>div>h5>div>span:first-child{
-		border-radius: 0px;
-	}
-	
-	.section-tuijian-two>div>ul>li>div>h5>div>span>button{
-		border-radius: 0px;
-	}
-	
-	.section-tuijian-two>div>div>div>div>ul>li>div>h5>div>span>button{
 		border-radius: 0px;
 	}
 }
 
+
+.section-login-one {
+	background-image: url(../img/denlu-bg-1.png);
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 140px 200px;
+	color: white;
+	overflow: hidden;
+}
+
+.section-login-one>ul>li{
+	
+	float: left;
+}
+
+.section-login-one>ul>li>div{
+	text-align: center;
+	 width: 500px; 
+}
+
+.section-login-one>ul>li>div>h2{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.section-login-one>ul>li>div>h4{
+	color: #b3afaf;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.section-login-one>ul>li>div>img{
+	color:white;
+	margin: auto;
+}
+
+.section-login-one>ul>li>form{
+	text-align: center;
+	color: black;
+	padding: 70px  80px 30px;
+	width: 500px;
+}
+
+.section-login-one>ul>li>form>div{
+	border-bottom: 1px solid #ccc;
+}
+
+.section-login-one>ul>li>form>div:first-child{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.section-login-one-form-last-div{
+	margin-top: 30px;
+	margin-bottom: 6px;
+}
+
+.section-login-one>ul>li>form>div>span{
+	border: none;
+	padding: 6px;
+	background-color: white;
+	border-radius: 0px;
+}
+
+.section-login-one>ul>li>form>div>span>img{
+	height: 18px;
+	width: 18px;
+}
+
+.section-login-one>ul>li>form>div>input{
+	-webkit-box-shadow:none;
+	border: none;
+	border-radius: 0px;
+}
+
+.section-login-one>ul>li>form>div>input:focus{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.section-login-one>ul>li>form>button{
+	margin-top: 20px;
+	margin-bottom: 34.5px;
+	color: white;
+	background-color: black;
+	width: 200px;
+	border-radius: 0px;
+}
+
+.section-login-one>ul>li>form>button:focus,
+.section-login-one>ul>li>form>button:hover
+{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.74);
+}
+
+.section-login-one>ul>li>form>a{
+	padding: 0 5px;
+}
+
+.section-login-one>ul>li>form>a:focus,
+.section-login-one>ul>li>form>a:hover
+{
+	opacity: 0.6;
+}
+
+.section-login-one>ul>li>form>h6>a:focus,
+.section-login-one>ul>li>form>h6>a:hover
+{
+	opacity: 0.6;
+}
 /* @media (max-width:768px) {
 	
 }
