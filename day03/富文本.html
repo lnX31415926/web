@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min-modify.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/my.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/wangEditor.min.js"></script>
+</head>
+<body>
+    <div id="wangEditor">
+        <p>欢迎使用 <b>wangEditor</b> 富文本编辑器</p>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    const E = window.wangEditor
+    const editor = new E('#wangEditor')
+    // 或者 const editor = new E( document.getElementById('div1') )
+    editor.create()
+</script>
