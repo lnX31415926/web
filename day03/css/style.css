@@ -1037,11 +1037,11 @@ body {
 }
 
 .tuogao-input-group {
-  width: 76%;
+  width: 86%;
 }
 
 .tuogao-input-group-select {
-  width: 30%;
+  width: 50%;
 }
 
 .section-tuogao-two > form > div > input {
@@ -1068,7 +1068,7 @@ body {
   box-shadow: none;
 }
 
-.section-tuijian-two > form > div > button {
+.section-tuogao-two > form > div > button {
   border-radius: 0px;
   padding: 8px 12px;
   color: white;
@@ -1076,8 +1076,36 @@ body {
   width: 200px;
 }
 
-.section-tuijian-two > form > div > button:focus,
-.section-tuijian-two > form > div > button:hover {
+.section-tuogao-two > form > div > button:focus,
+.section-tuogao-two > form > div > button:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.74);
 }
+
+.section-contactus-two > form > div {
+  margin-top: 50px;
+}
+
+.section-contactus-two > form > div > ul > li {
+  width: 300px;
+  margin: 0 auto;
+  float: left;
+  margin: 0px 32px;
+}
+
+.section-contactus-two > form > div > ul > li > input {
+  margin-left: 6px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.section-contactus-two > form > div > ul > li > input:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* .section-contactus-three {
+  padding: 100px 200px;
+  background-image: url(../img/contactus-footer.png);
+} */
